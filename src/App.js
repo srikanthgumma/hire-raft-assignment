@@ -41,7 +41,7 @@ const rows = [
 export default function DataTable() {
   return (
     <div style={{ height: 400, width: '100%' }}>
-      <input type='search' width='200px' height='60px'/>
+      <input type='search' width='200px' height='60px'onChange={alert("ki")}/>
       <DataGrid
         rows={rows}
         columns={columns}
